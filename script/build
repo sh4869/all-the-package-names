@@ -9,7 +9,6 @@ const ora = require('ora')
 const spinner = ora('').start()
 const registry = require('package-stream')({
   db: 'https://replicate.npmjs.com',
-  include_docs: true
 })
 
 registry

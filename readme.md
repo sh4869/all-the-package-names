@@ -96,3 +96,7 @@ None
 ## License
 
 MIT
+
+# update
+
+nice-package: 3.1.2
