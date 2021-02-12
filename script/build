@@ -29,7 +29,6 @@ function finish () {
     .compact()
     .uniq()
     .value()
-    .filter(name => !isNumber(name))
 
   fs.writeFileSync(filename, JSON.stringify(finalNames, null, 2))
   console.log(`\nwrote ${finalNames.length} package names to ${filename}`)
